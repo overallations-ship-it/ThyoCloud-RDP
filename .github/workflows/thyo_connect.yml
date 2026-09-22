@@ -23,7 +23,7 @@ on:
 jobs:
   build-rdp:
     runs-on: ${{ github.event.inputs.osChoice }}
-    timeout-minutes: 900
+    timeout-minutes: 360
 
     steps:
       - name: 🚀 Menghubungkan ke ThyoCloud Server Web
